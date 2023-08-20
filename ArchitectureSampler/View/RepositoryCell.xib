@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="70" id="Lsx-xK-6rf" customClass="RepositoryCell" customModule="ArchitectureSample" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Lsx-xK-6rf" id="SlH-qQ-lVl">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="70"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="gAc-7G-fMr">
+                        <rect key="frame" x="10" y="3" width="373" height="60"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="POI-R1-n6h">
+                                <rect key="frame" x="0.0" y="0.0" width="373" height="26"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qy5-Gb-N9U">
+                                <rect key="frame" x="0.0" y="34" width="373" height="26"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="sQN-CR-Yk1"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="gAc-7G-fMr" secondAttribute="bottom" constant="3" id="60X-1Q-Xvv"/>
+                    <constraint firstItem="gAc-7G-fMr" firstAttribute="top" secondItem="SlH-qQ-lVl" secondAttribute="top" constant="3" id="Aoq-xs-rTt"/>
+                    <constraint firstAttribute="trailing" secondItem="gAc-7G-fMr" secondAttribute="trailing" constant="10" id="Tr0-oy-Mp4"/>
+                    <constraint firstItem="gAc-7G-fMr" firstAttribute="leading" secondItem="SlH-qQ-lVl" secondAttribute="leading" constant="10" id="y5r-6o-DDo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="ripositoryNameLabel" destination="POI-R1-n6h" id="qzG-83-GSf"/>
+                <outlet property="ripositoryUrlLabel" destination="qy5-Gb-N9U" id="F2K-jX-tVX"/>
+            </connections>
+            <point key="canvasLocation" x="-266.41221374045801" y="393.66197183098592"/>
+        </tableViewCell>
+    </objects>
+</document>
