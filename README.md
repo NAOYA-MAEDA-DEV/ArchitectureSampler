@@ -1,7 +1,6 @@
 # ArchitectureSampler
 #### iOS Architecture Pattern Sample
-
-<img src="https://github.com/NAOYA-MAEDA-DEV/ArchitectureSampler/assets/79180266/acc61c10-fb85-41cd-a949-64dbad41facc" width="200">
+<img src="https://github.com/NAOYA-MAEDA-DEV/ArchitectureSampler/assets/79180266/436626bb-2fe5-47cd-9aef-ef54a00a437c" width="200">
 
 ## How to build
 #### 1. Download or Clone this project and open in Xcode.
